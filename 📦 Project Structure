@@ -1,0 +1,26 @@
+customer-churn-prediction/
+├─ README.md
+├─ requirements.txt
+├─ data/
+│ ├─ raw/
+│ │ └─ customer_churn.csv # put your CSV here (target column: Churn)
+│ └─ processed/
+├─ models/
+│ └─ best_model.joblib
+├─ artifacts/
+│ ├─ feature_columns.json
+│ └─ preprocess.joblib
+├─ reports/
+│ ├─ metrics.json
+│ └─ confusion_matrix.png
+├─ src/
+│ ├─ config.py
+│ ├─ preprocess.py
+│ ├─ models.py
+│ ├─ utils.py
+│ ├─ train.py
+│ ├─ evaluate.py
+│ └─ predict.py
+├─ app.py # Streamlit UI
+└─ tests/
+└─ test_pipeline.py
